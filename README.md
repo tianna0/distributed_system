@@ -1,0 +1,2 @@
+# Raft REST Message Queue
+A reliable distributed message queue built with the Raft consensus algorithm. RRMQ exposes a REST API for adding (PUT) and consuming (GET) messages from topic-based FIFO queues. The system ensures consistency, replication, and fault tolerance across nodes, with messages consumed exactly once. 
